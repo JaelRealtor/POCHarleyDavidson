@@ -8,7 +8,7 @@
 import Foundation
 import CoreLocation
 
-struct Location: Identifiable {
+struct LocationModel: Identifiable {
     let id = UUID()
     let coordinate: CLLocationCoordinate2D
 }
